@@ -5,10 +5,10 @@ import { logo } from "../constants";
 const navbar = () => {
   return (
     <div>
-      <div className="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom container pt-3">
+      <div className="d-flex flex-column flex-md-row align-items-center pb-2 mb-4 border-bottom container pt-2">
         <Link to="/">
           <div className="w-25">
-            <img src={logo} width={100} height={80} alt="" />
+            <img src={logo} width={70} alt="" />
           </div>
         </Link>
 
