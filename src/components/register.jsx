@@ -15,7 +15,7 @@ const Register = () => {
 
           <Input
             label={"Username"}
-            type={text}
+            type={"text"}
             state={name}
             setState={setName}
           />
@@ -32,7 +32,7 @@ const Register = () => {
             setState={setPassword}
           />
 
-          <button className="btn btn-primary w-100 py-2" type="submit">
+          <button className="btn btn-primary w-100 mt-2" type="submit">
             Register
           </button>
         </form>

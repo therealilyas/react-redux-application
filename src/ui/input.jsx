@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const input = ({ label, state, setState, type }) => {
   return (
@@ -7,7 +7,7 @@ const input = ({ label, state, setState, type }) => {
         type={type}
         value={state}
         onChange={(e) => setState(e.target.value)}
-        className="form-control"
+        className="form-control mb-2"
         id="floatingInput"
         placeholder={label}
       />
