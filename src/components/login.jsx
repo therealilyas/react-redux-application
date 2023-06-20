@@ -41,7 +41,7 @@ const Login = () => {
               disabled={isLoading}
               onClick={loginHandler}
             >
-              {isLoading ? "Loading..." : "Login"}
+              {isLoading ? "loading..." : "Login"}
             </button>
           </form>
         </main>
